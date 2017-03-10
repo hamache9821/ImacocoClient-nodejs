@@ -1,6 +1,6 @@
 {
   "name": "Imacoco-client",
-  "version": "0.0.1",
+  "version": "0.2.1",
   "private": true,
   "description": "Imacoco-Now client for ImakokoNow web service.",
   "homepage": "http://imacoco.589406.com",
@@ -22,11 +22,10 @@
   },
   "license": "MIT",
   "dependencies": {
-    "node-gpsd": "*",
-    "date-utils": "*",
-    "moment-timezone": "*",
     "config": "*",
-    "compression": "*"
+    "serialport": "*",
+    "gps": "*",
+    "moment-timezone": "*"
   },
   "engines": {
     "node": ">=5.6.0"

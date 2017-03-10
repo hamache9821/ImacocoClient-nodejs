@@ -1,9 +1,10 @@
 {
-    "gpsd_device"   : "/dev/gps",
-    "gpsd_port"     : 2947,
-    "gpsd_pid"      : "/tmp/gpsd.pid",
-    "post_url"      : "http://localhost/api/post",
+    "gps_device"    : "/dev/gps",
+    "gps_baudrate"  : 9600,
+    "post_hostname" : "localhost",
+    "post_path"     : "/api/post",
+    "post_port"     : 80,
     "post_userid"   : "admin",
     "post_passwd"   : "pass",
-    "post_timer"    : 10000
+    "post_timer"    : 10
 }
